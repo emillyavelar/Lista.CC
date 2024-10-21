@@ -52,3 +52,12 @@ function positivosENegativos(array){
             
     }
 }
+
+function multiplicar(array, numero){
+    let novoArray = [];
+    
+    for(let i = 0; i < array.length; i++){
+        novoArray.push(array[i] * numero);
+    }
+    return novoArray;
+}
